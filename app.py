@@ -94,7 +94,10 @@ api.add_resource(DataApi, '/data/', '/data/<int:id>/', endpoint='data_ep')
 # Run Server
 if __name__ == '__main__':
     app.run()
+#apabila kodingan ini agak mirip maka ada kodingan saya yg kedua
+#link github kodingan ke 2 https://github.com/ilhamakhsan/RemidialCS2UTSV2
 
+#perintah yang sudah saya coba di postman
 #get seluruh data http://127.0.0.1:5000/data
 #get data berdasarkan ID http://127.0.0.1:5000/data/4
 #post data http://127.0.0.1:5000/data
